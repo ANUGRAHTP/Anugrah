@@ -1,0 +1,75 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/float_simple"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/adminB1"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:width="300dp"
+        android:height="100dp"
+        android:background="@drawable/float_simple"
+        android:onClick="addNewUser"
+        android:paddingBottom="8dp"
+        android:text="ADD NEW USER "
+        android:textSize="32dp" />
+
+    <Button
+        android:id="@+id/adminB2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:width="300dp"
+        android:height="100dp"
+        android:background="@drawable/float_simple"
+        android:onClick="addNewWorker"
+        android:paddingTop="22dp"
+        android:paddingBottom="8dp"
+        android:text="add new worker "
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/adminB3"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:width="300dp"
+        android:height="100dp"
+        android:background="@drawable/float_simple"
+        android:onClick="viewComplaints"
+        android:paddingTop="22dp"
+        android:paddingBottom="8dp"
+        android:text="View complaints"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/adminB4"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:width="300dp"
+        android:height="100dp"
+        android:background="@drawable/float_simple"
+        android:onClick="viewCustomer"
+        android:paddingBottom="8dp"
+        android:text="view customer "
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/adminB5"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:width="300dp"
+        android:height="100dp"
+        android:background="@drawable/float_simple"
+        android:onClick="notifications"
+        android:paddingTop="22dp"
+        android:paddingBottom="8dp"
+        android:text="notifications"
+        android:textSize="32sp" />
+
+
+
+</LinearLayout>

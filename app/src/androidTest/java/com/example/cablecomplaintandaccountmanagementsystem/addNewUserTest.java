@@ -1,0 +1,12 @@
+package com.example.cablecomplaintandaccountmanagementsystem;
+
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+public class addNewUserTest {
+
+    @Test
+    public void onCreate() {
+    }
+}
